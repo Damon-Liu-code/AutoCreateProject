@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.form-column {
+    /*height: 400px;*/
+    /*width: 300px;*/
+    height: 500px;
+    width: 375px;
+    background-color: #ffffff;
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    margin: 0 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.form-column:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    height: 10px;
+    width: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.form-column:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    height: 20px;
+    width: 20px;
+    background-image: url('../jquery-easyui-1.3.3/themes/scientific/images/menu_arrows.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.form-column h2 {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+.form-column label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+.form-column input[type="text"],
+.form-column input[type="password"],
+.form-column select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-column input[class="nextStep"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.form-column input[class="nextStep"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.form-column input[class="someLine"] {
+    width: 100%;
+    height: 43px;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    visibility: hidden;
+}
+
+.form-column input[class="nextStep"]:not([disabled]):hover {
+    background-color: #45a049;
+}
+
+.form-column .field-checkboxes {
+    border: 1px solid #ccc;
+    height: 209px; /* 初始高度 */
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.form-column .field-checkboxes label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.field-table {
+    font-size: 13px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.field-table th,
+.field-table td {
+    padding: 2px;
+    text-align: left;
+}
+
+.field-table th {
+    background-color: #f2f2f2;
+}
+
+.field-table td {
+    border: 1px solid #ccc;
+}
+
+.field-checkboxes {
+    margin-top: 2px;
+}

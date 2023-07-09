@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+
+  thymeleaf:
+    view-names: /*
+    cache: false
+    prefix: /WEB-INF/html

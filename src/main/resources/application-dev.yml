@@ -1,0 +1,37 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    #替换成MySQL账户
+    username: root
+    #替换成MySQL密码
+    password: root
+    #替换成数据库名
+    url: jdbc:mysql://localhost:3306/db_monitor?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+  application:
+    ## 注册服务名
+    name: MonitorSystem
+
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .html
+
+
+
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.entity
+
+logging:
+  level:
+    com:
+      example:
+        mapper: debug
+
+output:
+  file_path: C:/Java_Project/AutoCreateProject/output

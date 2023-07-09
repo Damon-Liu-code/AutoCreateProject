@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java代码生成工具</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="/css/output.css" rel="stylesheet" type="text/css">
+    <script src="/js/output.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+    <div class="file-list">
+        <h2>文件目录<span class="action-button" id="downloadButton" title="下载"><i class="fas fa-download"></i></span>
+        </h2>
+        <ul id="fileList"></ul>
+    </div>
+    <div class="code-viewer">
+        <h2>文件内容<span class="action-button" id="copyButton" title="复制"><i class="fas fa-copy"></i></span></h2>
+        <div class="code-container">
+            <pre id="codeContent">
+                <span id="fileContentText"></span>
+            </pre>
+        </div>
+    </div>
+</div>
+</body>
+</html>
