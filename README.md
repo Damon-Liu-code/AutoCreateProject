@@ -24,6 +24,6 @@ Generate the front-end and back-end code of the data-table page by connecting th
 ![image](https://github.com/Damon-Liu-code/AutoCreateProject/blob/master/img/readme_002.png)
 ![image](https://github.com/Damon-Liu-code/AutoCreateProject/blob/master/img/readme_003.png)
 
-3. We copy the generated files into our project templete(MIS_Templete.zip), restart our project, and access the HTML page. We can observe that the generated module runs smoothly, and it possesses functionalities for creating, deleting, modifying, and querying data.
+3. We copy the generated files into our project, restart our project, and access the HTML page. We can observe that the generated module runs smoothly, and it possesses functionalities for creating, deleting, modifying, and querying data.
 ![image](https://github.com/Damon-Liu-code/AutoCreateProject/blob/master/img/readme_004.png)
 ![image](https://github.com/Damon-Liu-code/AutoCreateProject/blob/master/img/readme_005.png)
