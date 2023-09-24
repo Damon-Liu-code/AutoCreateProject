@@ -16,7 +16,7 @@ Generate the front-end and back-end code of the data-table page by connecting th
 | Project Address | 1.13.17.128:8090 |
 
 ## Operating Process
-0. Before using this tool, you need to download the framework and database files of the template project (base.zip), create a new project through the source code, and all the generated code files can be directly pasted into the template project.
+0. Before using this tool, you need to download the framework and database files of the template project (github.com/Damon-Liu-code/Base_MIS), create a new project through the source code, and all the generated code files can be directly pasted into the template project.
 
 1. By entering connection information, you can connect to the database. Then, select the data table you want to work with and choose the fields you want to display on the table and the fields to be used for the search box. After clicking "Finish," you will be redirected to the generated result page.
 ![image](https://github.com/Damon-Liu-code/AutoCreateProject/blob/master/img/readme_001.png)
